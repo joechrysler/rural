@@ -1,7 +1,8 @@
+#!/usr/bin/ruby
+require 'rubygems'
 require 'redis'
 require 'sinatra'
 
-set :port, 80
 
 before do
     @cache = Redis.new
